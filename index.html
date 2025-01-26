@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-3" href="index.html">Tech Shop</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav ms-auto mx-4">
+                            <li class="nav-item"><a class="nav-link bold" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link bold" href="#">Product</a></li>
+                            <li class="nav-item"><a class="nav-link bold" href="#">Support</a></li>
+                            <li class="nav-item"><a class="nav-link bold" href="#">Cart</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="first_section">
+                <div class="container my-5">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <div id="carouselExampleCaptions" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active images">
+                                        <img src="Image/RTX-4090-1.jpg" class="d-block w-100" alt="RTX-4090">
+                                    </div>
+                                    <div class="carousel-item images">
+                                        <img src="Image/RTX-4090-2.jpg" class="d-block w-100" alt="RTX-4090">
+                                    </div>
+                                    <div class="carousel-item images">
+                                        <img src="Image/RTX-4090-3.jpg" class="d-block w-100" alt="RTX-4090">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <h1>GeForce RTX 4090 </h1>
+                            <p class="lead">Designed to Give You Superpowers</p>
+
+                            <div class="price">
+                                <h4 class="text-primary">$1,599.99</h4>
+                                <button class="btn bg-success text-white">Buy Now</button>
+                                <button class="btn bg-danger text-white">Add to cart</button>
+                            </div>
+
+                            <div class="features">
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li><strong> Architecture: </strong>Built on the NVIDIA Ada Lovelace architecture,
+                                        offering significant improvements in performance and efficiency.</li>
+                                    <li><strong> CUDA Cores:</strong> Equipped with 16,384 CUDA cores, enhancing
+                                        parallel processing capabilities. </li>
+                                    <li><strong> Memory:</strong> Comes with 24 GB of high-speed GDDR6X memory on a
+                                        384-bit interface, supporting high-resolution textures and complex models. </li>
+                                    <li><strong> Ray Tracing and AI:</strong> Features 128 third-generation ray tracing
+                                        cores and 512 fourth-generation Tensor cores, enabling advanced ray tracing and
+                                        AI-driven technologies like DLSS 3. </li>
+                                    <li><strong> Performance:</strong> Delivers over 100 frames per second in 4K gaming,
+                                        providing a smooth and immersive experience.</li>
+                                    <li><strong> Power Consumption: </strong>Has a TDP of 450W, similar to the previous
+                                        generation's RTX 3090 Ti, while offering significantly higher performance. </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="second_section">
+                <div class="container">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <strong>Product Description</strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Experience unmatched performance and cutting-edge technology
+                                    with the NVIDIA GeForce RTX 4090, the pinnacle of gaming and creative power.
+                                    Designed for enthusiasts, gamers, and creators, this flagship GPU sets a new
+                                    standard for high-performance graphics. <br>
+                                    The RTX 4090 redefines what’s possible in gaming and content creation, making it the
+                                    ultimate choice for those who demand the best. Whether you're a competitive gamer,
+                                    3D artist, or video editor, this GPU delivers a quantum leap in performance and
+                                    technology.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                   <strong> Technical Specifications</strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <table class="table">
+                                        <tr>
+                                            <td>Architecture</td>
+                                            <td>NVIDIA Ada Lovelace</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CUDA Cores</td>
+                                            <td> 16,384</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Base Clock Speed</td>
+                                            <td> 2.23 GHz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Boost Clock Speed</td>
+                                            <td> 2.52 GHz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Memory</td>
+                                            <td> 24 GB GDDR6X</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ray Tracing Cores</td>
+                                            <td>128 (3rd Generation)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tensor Cores</td>
+                                            <td>512 (4th Generation)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Power Consumption (TDP)</td>
+                                            <td>450W</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Maximum Digital Resolution</td>
+                                            <td>7680 x 4320</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ports</td>
+                                            <td>1x HDMI 2.1, 3x DisplayPort 1.4a</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cooling System</td>
+                                            <td>Triple-Fan Design (varies by manufacturer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dimensions</td>
+                                            <td>Varies (reference: ~336 mm x 140 mm x 61 mm)</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="icons text-center mt-4">
+                            <a href="https://www.facebook.com/iahia.imon.18" target="_blank"><i class="fa-brands fa-facebook fs-2 m-2"></i></a>
+                            <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-twitter fs-2 m-2"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram fs-2 m-2"></i></a>
+                            <a href="https://www.linkedin.com/feed/?trk=hb_signin" target="_blank"><i class="fa-brands fa-linkedin fs-2 m-2"></i></a>
+                        </div>
+                        <div class="condition text-center">
+                            <p class="m-2">CopyRight &copy; 2025 All Rights Reserved by IAHIA</p>
+                            <a class="p-2 m-2" href="#">Privecy Policy</a>
+                            <a class="p-2 m-2" href="#">Terms of Service</a>
+                            <a class="p-2 m-2" href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
